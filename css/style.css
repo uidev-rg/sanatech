@@ -356,6 +356,17 @@ footer .tags ul li {
     font-size: 2rem;
     font-weight: 400; 
   }
+  #about{
+    scroll-margin-top: 80px;
+  }
+  
+  #services{
+    scroll-margin-top: 60px;
+  }
+  
+  #contact{
+    scroll-margin-top: 80px;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -363,14 +374,9 @@ footer .tags ul li {
   nav ul {
     float: none;
     width: 100%;
-    background-color: #fff;
-    box-shadow: 0 3px 38px 0 rgba(2, 1, 8, 0.08); 
   }
   nav ul li {
-    float: none;
-    width: 100%;
     text-align: left;
-    border-bottom: 1px solid #cccccc40;
   }
   nav ul li a {
     color: #444; 
