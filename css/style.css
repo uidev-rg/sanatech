@@ -1,0 +1,406 @@
+/* ------- Common CSS ------- */
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none; 
+}
+
+img {
+  max-width: 100%; 
+}
+
+.no-padding {
+  padding: 0px; 
+}
+
+.no-margin {
+  margin: 0px; 
+}
+
+.container-fluid {
+  padding: 0px; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Josefin Sans', sans-serif; 
+}
+
+body {
+  background-color: #f1f1f1 !important;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #6A6A6A;
+  overflow-x: hidden;
+}
+
+.services-title {
+  padding: 30px;
+  margin: 0px; 
+}
+.services-title h2 {
+  width: 100%;
+  text-align: center;
+  font-weight: 400; 
+}
+.services-title p {
+  max-width: 850px;
+  text-align: center;
+  float: none;
+  margin: auto; 
+}
+
+.btn-success {
+  background-color: #f60403;
+  border-color: #ca1514; 
+}
+
+.btn-success:hover {
+  background-color: #f60403 !important;
+  border-color: #ca1514 !important; 
+}
+
+.btn-success:active {
+  background-color: #f60403 !important;
+  border-color: #ca1514 !important; 
+}
+
+.btn-success:focus {
+  background-color: #f60403 !important;
+  border-color: #ca1514 !important;
+  box-shadow: none !important; 
+}
+
+.btn-primary {
+  background-color: #6655e8;
+  border-color: #6655e8; 
+}
+
+.btn-primary:hover {
+  background-color: #6655e8 !important;
+  border-color: #6655e8 !important; 
+}
+
+.btn-primary:active {
+  background-color: #6655e8 !important;
+  border-color: #6655e8 !important; 
+}
+
+.btn-primary:focus {
+  background-color: #6655e8 !important;
+  border-color: #6655e8 !important;
+  box-shadow: none !important; 
+}
+
+.btn {
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 2px; 
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+  border: 2px solid  #863dd9; 
+}
+
+.btn-light {
+  background-color: #FFF;
+  color: #3F3F3F; 
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 2px solid #863dd9 !important; 
+}
+
+.form-control {
+  background-color: #F8F8F8;
+  margin-bottom: 20px; 
+}
+
+.form-control:focus {
+  background-color: #FFF;
+  border-color: #CCC; 
+}
+
+.container {
+  max-width: 1170px; 
+}
+
+/* ------- Nav CSS ------- */
+
+nav{
+  box-shadow: 0px -4px 7px #000;
+}
+
+nav ul {
+  float: right; 
+}
+
+nav ul li {
+  padding: 20px 25px;
+  font-weight: 600; 
+}
+
+nav ul li a {
+  color: #000; 
+}
+
+nav .logo {
+  padding: 5px 15px; 
+}
+
+nav .logo img {
+  max-width: 230px; 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#about{
+  scroll-margin-top: 30px;
+}
+
+#services{
+  scroll-margin-top: 60px;
+}
+
+#contact{
+  scroll-margin-top: 110px;
+}
+
+/* ------- Slider CSS ------- */
+.slider {
+  background-image: url(../images/banner.jpg);
+  background-size:cover;
+  height: 680px;
+}
+.slider .slid-inner {
+  position: absolute;
+  width: 100%;
+  height: 680px;
+  padding: 50px;
+  padding-top: 157px; 
+  background: #ffffffad;
+}   
+.slider .detail {
+  color: #364962;
+  padding-right: 30px; 
+}
+.slider .detail h1 {
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.slider .detail h6 {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 400; 
+}
+.slider .detail p {
+  font-size: 1.2rem;
+  font-weight: 300; 
+}
+.slider .btn-row {
+  margin-top: 20px; 
+}
+.slider .btn-row button,
+.slider .btn-row a {
+  padding: 15px 30px;
+  margin-right: 30px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  border-radius: 5px; 
+}
+.slider .btn-row .btn-default {
+  background-color: #FFF; 
+}
+
+/* ------- About CSS ------- */
+.about-us {
+  padding: 50px;
+  padding-top: 110px;
+  background-color: #FFF; 
+}
+.about-us .text p {
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: #000;
+  margin-bottom: 10px; 
+}
+.about-us .image img {
+  margin-top: 30px; 
+}
+
+
+/* ------- Services CSS ------- */
+
+.services {
+  padding: 50px; 
+}
+
+.services .services-row {
+  margin-top: 30px; 
+}
+.services .services-row .services-col {
+  text-align: center;
+  background-color: #FFF;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 3px 0 rgba(218, 218, 253, 0.35), 0 0px 3px 0 rgba(206, 206, 238, 0.35); 
+}
+.services .services-row .services-col i {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #f60403; 
+}
+.services .services-row .services-col:hover {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); 
+}
+
+/* ------- Footer Style  ------- */
+
+footer {
+  padding: 80px 50px;
+  background-color: #222;
+  color: #FFF; 
+}
+
+footer h2 {
+  font-size: 1.2rem;
+  margin-bottom: 20px; 
+}
+
+footer .about p {
+  font-size: .9em;
+}
+
+footer .about .foot-address {
+  display: flex; 
+}
+
+footer .about .foot-address .icon {
+  padding: 15px 10px; 
+}
+
+footer .about .foot-address .addet {
+  font-size: .9rem;
+  margin: auto 0px; 
+}
+
+footer .fotblog .blohjb {
+  margin-bottom: 10px; 
+}
+
+footer .fotblog .blohjb p {
+  font-size: .9rem; 
+}
+
+footer .fotblog .blohjb span {
+  font-size: .9rem; 
+}
+
+footer .glink ul li {
+  padding: 10px; 
+}
+
+footer .glink ul li i {
+  margin-right: 10px; 
+}
+
+footer .glink ul li a {
+  color: #FFF; 
+}
+
+footer .tags ul li {
+  float: left;
+  padding: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #CCC; 
+}
+
+.copy {
+  padding: 20px;
+  background-color: #191616;
+  color: #FFF; 
+}
+
+.copy a {
+  color: #FFF; 
+}
+
+.copy span {
+  float: right; 
+}
+
+.copy span i {
+  margin-right: 20px;
+}
+
+.cop-ck {
+  padding: 20px;
+  background-color: #ffffffbd;
+}
+.cop-ck h2 {
+  font-size: 1.2rem;
+  margin-bottom: 20px; 
+}
+
+/* ------- Media Queries  ------- */
+
+@media screen and (max-width: 600px) {
+  .slider .slid-inner {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 105px; 
+  }
+  .slider .detail h1 {
+    font-size: 2rem;
+    font-weight: 400; 
+  }
+}
+
+@media screen and (max-width: 991px) {
+  
+  nav ul {
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 3px 38px 0 rgba(2, 1, 8, 0.08); 
+  }
+  nav ul li {
+    float: none;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid #cccccc40;
+  }
+  nav ul li a {
+    color: #444; 
+  }
+
+  .slider {
+    height: auto; 
+  }
+  .slider .slid-inner {
+    position: relative;
+    height: auto;
+  }
+  .slider .image {
+    margin-top: 30px; 
+  }
+
+}
+
+@media screen and (max-width: 940px) {
+
+  .about-us {
+    padding: 30px 10px; 
+  }
+
+  .services {
+    padding: 30px 10px; 
+  }
+
+  footer {
+    padding: 50px 10px; 
+  }
+
+}
